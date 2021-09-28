@@ -1,0 +1,6 @@
+version: '2.1'
+services:
+    worker1:
+        build: .
+        ports:
+            - "7101:7101"
